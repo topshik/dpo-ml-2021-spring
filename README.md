@@ -1,155 +1,35 @@
-# dpo-ml-2020
-Материалы блока 4 "Машинное обучение" [специализации DS](https://cs.hse.ru/dpo/datascientist)
+# ДПО: Машинное обучение (весна 2021)
+Материалы блока "Машинное обучение" [специализации DS](https://cs.hse.ru/dpo/datascientist)
 
-Семинарист: Евгений Ковалев (telegram: [@KovalevEvgeny](https://t.me/KovalevEvgeny))
+Преподаватель: Антон Семенкин
 
-Ассистент: Нарек Алвандян (telegram: [@narekvslife](https://t.me/narekvslife))
+Ассистент: Пётр Григорьев
 
-Лекции проходят по вторникам с 19:00 до 22:00.
+Материалы: Евгений Ковалёв ([source repo](https://github.com/KovalevEvgeny/dpo-ml-2020))
 
-Таблица с оценками: https://docs.google.com/spreadsheets/d/1miyCGvU1o9fHAP4VhNxBaQ68AAxEONXSSYgWENgtEc4/edit#gid=0
+Таблица с оценками: [TBD]
 
 ## Формула оценки
 
-- Оценка_итоговая = 0.8 * Оценка_ДЗ + 0.2 * Оценка_тесты
+- Оценка_итоговая = 0.6 * Оценка_ДЗ + 0.2 * Оценка_тесты + 0.2 * Оценка_проект
 - 10-балльная система оценивания
 - Для зачета нужно получить 6 и выше
 
-## Лекции
-
-**Лекция 1. Введение и основные задачи. _(23.06.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture01-intro.pdf)
-- [Ноутбук по `numpy`](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem01_intro/sem01_numpy.ipynb)
-- [Ноутбук по `pandas`](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem01_intro/sem01_pandas.ipynb)
-- [Ноутбук по `matplotlib`](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem01_intro/sem01_matplotlib.ipynb)
-
-**Лекция 2. Линейная регрессия. _(30.06.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture02-linreg.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem02_linreg/sem02_linreg.ipynb)
-
-**Лекция 3. Градиентные методы обучения. _(07.07.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture03-grads.pdf)
-- [Ноутбук (версия с заданиями)](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem03_grads/sem03_grads.ipynb)
-- [Ноутбук (версия с решениями)](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem03_grads/sem03_grads-solved.ipynb)
-
-**Лекция 4. Линейная классификация и метрики качества классификации. _(14.07.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture04-linclass.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem04_linclass/sem04_linclass.ipynb)
-
-**Лекция 5. Логистическая регрессия и SVM. _(21.07.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture05-logreg_svm.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem05_linclass_svm/sem05_logreg_svm.ipynb)
-
-**Лекция 6. Многоклассовая классификация, работа с категориальными признаками и текстами. _(28.07.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture06-multiclass_categorical.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem06_texts/sem06_texts.ipynb)
-
-**Лекция 7. Решающие деревья. _(01.09.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture07-decision_trees.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem07_trees/sem07_trees.ipynb)
-
-**Лекция 8. Бэггинг и случайные леса. _(08.09.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture08-ensembles.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem08_ensembles/sem08_ensembles.ipynb)
-
-**Лекция 9. Градиентный бустинг. _(15.09.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture09-gradboost.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem09_gradboost/sem09_gradboost.ipynb)
-
-**Лекция 10. Градиентный бустинг: имплементации. _(22.09.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture10-gradboost2.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem10_gradboost2/sem10_gradboost2.ipynb)
-
-**Лекция 11. Отбор признаков и понижение размерности. _(29.09.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture11-dimensionality_reduction.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem11_dimensionality_reduction/sem11_dimensionality_reduction.ipynb)
-
-**Консультация. _(05.10.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/consultation.pdf)
-
-**Лекция 12. Кластеризация. _(06.10.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture12-clustering.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem12_clustering/sem12_clustering.ipynb)
-- [Ноутбук (заполненная версия с семинара)](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem12_clustering/sem12_clustering_filled.ipynb)
-
-**Лекция 13. Поиск аномалий. _(15.10.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture13-anomaly_detection.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem13_anomaly_detection/sem13_anomaly_detection.ipynb)
-
-**Лекция 14. Рекомендательные системы. _(20.10.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture14-recsys.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem14_recsys/sem14_recsys.ipynb)
-- [Ноутбук (заполненная версия с семинара)](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem14_recsys/sem14_recsys_filled.ipynb)
- 
-**Лекция 15. Ранжирование. _(27.10.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture15-ranking.pdf)
-- [Ноутбук](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem15_ranking/sem15_ranking.ipynb)
-- [Ноутбук (заполненная версия с семинара)](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/seminars/sem15_ranking/sem15_ranking_filled.ipynb)
-
-**Лекция 16. Заключение, соревнования. _(03.11.2020)_**
-
-- [Презентация](https://nbviewer.jupyter.org/github/KovalevEvgeny/dpo-ml-2020/blob/master/lectures/lecture16-final.pdf)
-- [Ноутбук в Google Colab](https://colab.research.google.com/drive/1df3t-h0Jo9aUQUd_TlUVLnNETEJyu91o?usp=sharing)
-
 ## Домашние задания
 
-За сдачу задания позже срока на итоговую оценку за задание накладывается штраф в размере 0.25 балла в день, но получить отрицательную оценку нельзя.
+За сдачу задания позже срока на итоговую оценку за задание накладывается штраф в размере 0.3 балла в день, но получить отрицательную оценку нельзя.
 
 Загрузка файлов с решениями происходит в системе [Anytask](https://anytask.org/). Для доступа к курсу вам нужно зарегистрироваться в системе, войти в свой профиль, найти раздел "Активация инвайтов на курсы" и ввести инвайт.
 
-Инвайт: lInNu4j
+Инвайт: [TBD]
 
 **Домашнее задание №1**
 
 - *Темы:* `numpy`, `pandas`, `matplotlib`
-- *Ссылка:* https://github.com/KovalevEvgeny/dpo-ml-2020/tree/master/homeworks/hw01
-- *Дата выдачи:* 30.06.2020
-- *Дедлайн:* **14.07.2020 23:59**
+- *Ссылка:* [TBD]
+- *Дата выдачи:* [TBD]
+- *Дедлайн:* [TBD]
 
-**Домашнее задание №2**
-
-- *Темы:* Линейная регрессия и градиентный спуск
-- *Ссылка:* https://github.com/KovalevEvgeny/dpo-ml-2020/tree/master/homeworks/hw02
-- *Дата выдачи:* 17.07.2020
-- *Дедлайн:* **02.08.2020 23:59**
-- *Дедлайн со штрафом (максимум 8 баллов):* **10.09.2020 23:59**
-
-**Домашнее задание №3**
-
-- *Темы:* Линейная классификация, метрики качества классификации
-- *Ссылка:* https://github.com/KovalevEvgeny/dpo-ml-2020/tree/master/homeworks/hw03
-- *Дата выдачи:* 22.09.2020
-- *Дедлайн:* **06.10.2020 23:59**
-
-**Домашнее задание №4**
-
-- *Темы:* Решающие деревья и ансамбли
-- *Ссылка:* https://github.com/KovalevEvgeny/dpo-ml-2020/tree/master/homeworks/hw04
-- *Дата выдачи:* 11.10.2020
-- *Дедлайн:* **28.10.2020 23:59**
-
-**Домашнее задание №5 (дополнительное)**
-
-- *Темы:* Кластеризация
-- *Ссылка:* https://github.com/KovalevEvgeny/dpo-ml-2020/tree/master/homeworks/hw05
-- *Дата выдачи:* 27.10.2020
-- *Дедлайн:* **10.11.2020 23:59**
 
 ## Что почитать
 
