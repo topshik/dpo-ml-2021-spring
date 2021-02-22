@@ -26,9 +26,9 @@
 **Домашнее задание №1**
 
 - *Темы:* `numpy`, `pandas`, `matplotlib`
-- *Ссылка:* [TBD]
-- *Дата выдачи:* [TBD]
-- *Дедлайн:* [TBD]
+- *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw01
+- *Дата выдачи:* 22.02.2021
+- *Дедлайн:* 05.03.2021, 23:30
 
 
 ## Что почитать
