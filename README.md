@@ -7,7 +7,7 @@
 
 Материалы: Евгений Ковалёв, Евгений Соколов ([source repo](https://github.com/KovalevEvgeny/dpo-ml-2020))
 
-Таблица с оценками: [TBD]
+[Таблица с оценками](https://docs.google.com/spreadsheets/d/11MOU3k9r-NpMLjfCP-xAo55zJGD3n8lTBKK5x7p_ZbI/edit?usp=sharing)
 
 ## Формула оценки
 
