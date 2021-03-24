@@ -5,7 +5,7 @@
 
 Ассистент: Пётр Григорьев
 
-Материалы: Евгений Ковалёв ([source repo](https://github.com/KovalevEvgeny/dpo-ml-2020))
+Материалы: Евгений Ковалёв, Евгений Соколов ([source repo](https://github.com/KovalevEvgeny/dpo-ml-2020))
 
 Таблица с оценками: [TBD]
 
