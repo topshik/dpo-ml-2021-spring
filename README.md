@@ -5,9 +5,9 @@
 
 Ассистент: Пётр Григорьев
 
-Материалы: Евгений Ковалёв ([source repo](https://github.com/KovalevEvgeny/dpo-ml-2020))
+Материалы: Евгений Ковалёв, Евгений Соколов ([source repo](https://github.com/KovalevEvgeny/dpo-ml-2020))
 
-Таблица с оценками: [TBD]
+[Таблица с оценками](https://docs.google.com/spreadsheets/d/11MOU3k9r-NpMLjfCP-xAo55zJGD3n8lTBKK5x7p_ZbI/edit?usp=sharing)
 
 ## Формула оценки
 
@@ -29,6 +29,13 @@
 - *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw01
 - *Дата выдачи:* 22.02.2021
 - *Дедлайн:* 05.03.2021, 23:30
+
+**Домашнее задание №2**
+
+- *Темы:* градиентный спуск, линейная регрессия
+- *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw02
+- *Дата выдачи:* 13.03.2021
+- *Дедлайн:* 27.03.2021, 15:00
 
 
 ## Что почитать
