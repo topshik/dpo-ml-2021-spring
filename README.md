@@ -26,16 +26,23 @@
 **Домашнее задание №1**
 
 - *Темы:* `numpy`, `pandas`, `matplotlib`
-- *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw01
+- *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw01_pandas_numpy_matplotlib
 - *Дата выдачи:* 22.02.2021
 - *Дедлайн:* 05.03.2021, 23:30
 
 **Домашнее задание №2**
 
 - *Темы:* градиентный спуск, линейная регрессия
-- *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw02
+- *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw02_linreg_grads
 - *Дата выдачи:* 13.03.2021
 - *Дедлайн:* 27.03.2021, 15:00
+
+**Домашнее задание №3**
+
+- *Темы:* линейная классификация: логрег, SVM
+- *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw03_linclass
+- *Дата выдачи:* 1.04.2021
+- *Дедлайн:* 11.04.2021, 23:30
 
 
 ## Что почитать
