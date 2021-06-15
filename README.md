@@ -5,13 +5,13 @@
 
 Ассистент: Пётр Григорьев
 
-Материалы: Евгений Ковалёв, Евгений Соколов ([source repo](https://github.com/KovalevEvgeny/dpo-ml-2020))
+Материалы: Евгений Ковалёв, Евгений Соколов, Тамерлан Таболов ([source repo](https://github.com/KovalevEvgeny/dpo-ml-2020))
 
 [Таблица с оценками](https://docs.google.com/spreadsheets/d/11MOU3k9r-NpMLjfCP-xAo55zJGD3n8lTBKK5x7p_ZbI/edit?usp=sharing)
 
 ## Формула оценки
 
-- Оценка_итоговая = 0.6 * Оценка_ДЗ + 0.2 * Оценка_тесты + 0.2 * Оценка_проект
+- Оценка_итоговая = 0.8 * Оценка_ДЗ + 0.2 * Оценка_тесты
 - 10-балльная система оценивания
 - Для зачета нужно получить 6 и выше
 
@@ -51,8 +51,17 @@
 - *Дата выдачи:* 23.04.2021
 - *Дедлайн:* 22.05.2021, 15:30
 
+**Домашнее задание №5**
+
+- *Темы:* деревья
+- *Ссылка:* https://github.com/topshik/dpo-ml-2021-spring/tree/master/homeworks/hw05_boosting_clustering
+- *Дата выдачи:* 15.06.2021
+- *Дедлайн:* 04.07.2021, 23:30
+
 
 ## Что почитать
+
+Курсы МО-1 (углублённая версия нашего курса) и МО-2 (дополнительные темы) программы ПМИ ФКН: https://github.com/esokolov/ml-course-hse
 
 У первых 4 книг есть перевод на русский язык, но советую читать в оригинале.
 
@@ -93,7 +102,6 @@
 **Python & Jupyter**
 
 - Learn Python (Python 3 tutorial): https://www.learnpython.org/
-- A Crash Course in Python for Scientists (Python 2): http://nbviewer.jupyter.org/gist/rpmuller/5920182
 - A Gallery of interesting Jupyter Notebooks: https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 - Markdown Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
